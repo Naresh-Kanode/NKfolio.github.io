@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nk Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="main.js"></script>
+    <script src= "https://smtpjs.com/v3/smtp.js"></script>
+</head>
+
+<body class="">
+    <!--Header navbar section-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand animate__animated animate__pulse animate__infinite infinite" href="#"><img src="./img/logo.png" height="50px"width="50px" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item p-1">
+                        <a class="btn  text-light w-100 shadow-lg" href="#about">About</a>
+                    </li>
+                    <li class="nav-item p-1">
+                        <a class="btn  text-light w-100 shadow-lg" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item p-1">
+                        <a class="btn  text-light w-100 shadow-lg" href="#skill">Skill</a>
+                    </li>
+                    <li class="nav-item p-1">
+                        <a class="btn  text-light w-100 shadow-lg" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item p-1">
+                        <a class="btn  text-light w-100 shadow-lg" href="#certification">Certificates</a>
+                    </li>
+
+                    <li class="nav-item p-1">
+                        <button class="btn  text-light w-100 shadow-lg " onclick="myFunction()">Invert</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Header navbar section end-->
+
+    <!--about section start-->
+    <div class="container-fluid  " id="about">
+        <div id="bg-about">
+            <div class="shadow-lg p-2 m-1 ">
+                <div class="row d-flex">
+                    <div class="col-12 col-lg-6 col-md-6 p-2">
+                        <img src="./img/about.jpg" class="about_img w-100 p-4" height="400px" alt="">
+                    </div>
+                    <div class="col-12 col-lg-6 col-md-6 d-lg-flex p-4 fs-5">
+                        <div class="align-items-center my-auto mx-auto  ">
+                            <h1 class="ms-5 animate__animated animate__pulse animate__infinite	infinite">Hi, I'm Naresh
+                            </h1>
+                            <p class="ms-5 animate__animated animate__pulse animate__infinite	infinite">Frontend
+                                Developer</p>
+                            <p class="ms-5">Highly passionate in web designing <br>to build attractive designs</p>
+                            <a href="./img/new_resume_nik.pdf" download="new_resume_nik"><button
+                                    class="ms-5 btn btn-outline-success"><i
+                                        class="fa fa-download fs-5"></i>resume</button></a>
+                            <a href="https://github.com/Naresh-Kanode" target="_blank"><button class=" btn btn-outline-success"><i
+                                        class="bi bi-github fs-5"></i></button></a>
+                            <a href="https://www.linkedin.com/in/naresh-kanode-7aa67a231/" target="_blank"><button class=" btn btn-outline-success"><i
+                                        class="bi bi-linkedin fs-5"></i></button></a>
+                            <a href="https://www.instagram.com/nik_jain_k/" target="_blank"><button class=" btn btn-outline-success"><i
+                                        class="bi bi-instagram fs-5"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+                <!--about section end-->
+
+                <!--education section start-->
+                <div class="container-fluid  " id="education">
+                    <div class="row">
+                        <h1 class="text-center  edu_border">Education</h1>
+                        <div class="col-12 col-lg-6 col-md-6 my-4 ">
+
+                            <div class="card w-100  " style=" background-color: blueviolet; ">
+                                <div class="justify-content-center text-center mx-auto">
+                                    <i class="fa-solid fa-graduation-cap text-light fs-3 my-3"></i>
+                                    <h5 class="mx-auto text-light">Post Graduation</h5>
+                                    <p>
+                                        <a class="btn btn-outline-dark rounded-pill" data-bs-toggle="collapse"
+                                            href="#collapseExample1" role="button" aria-expanded="false"
+                                            aria-controls="collapseExample">
+                                            Read More
+                                        </a>
+                                    </p>
+                                    <div class="collapse" id="collapseExample1">
+                                        <div class="card text-light" style=" background-color: blueviolet;">
+                                            <table class="table ">
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col" class=" text-light p-sm-5 p-lg-4  p-md-4">
+                                                            Degree:</th>
+                                                        <td scope="col" class=" text-light"> Master of Computer
+                                                            Application.</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="col" class=" text-light p-sm-5 p-lg-4  p-md-4">
+                                                            University:</th>
+                                                        <td scope="col" class=" text-light">Rashtrasant Tukdoji Maharaj
+                                                            Nagpur University.</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="col" class="text-light p-sm-5 p-lg-4  p-md-4">
+                                                            College:</th>
+                                                        <td scope="col" class=" text-light"> Inter Institutional
+                                                            Computer Centre, Nagpur.</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="col" class="text-light  p-sm-4 p-lg-4  p-md-4">
+                                                            Result:</th>
+                                                        <td scope="col" class=" text-light">Pursuing - 2024.</td>
+                                                    </tr>
+                                                </thead>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-6 col-md-6 my-4 ">
+
+                            <div class="card w-100" style=" background-color: blueviolet; ">
+                                <div class="justify-content-center text-center mx-auto">
+                                    <i class="fa-solid fa-graduation-cap text-light fs-3 my-3"></i>
+                                    <h5 class="mx-auto text-light"> Graduation</h5>
+                                    <p>
+                                        <a class="btn btn-outline-dark rounded-pill" data-bs-toggle="collapse"
+                                            href="#collapseExample2" role="button" aria-expanded="false"
+                                            aria-controls="collapseExample">
+                                            Read More
+                                        </a>
+                                    </p>
+                                    <div class="collapse" id="collapseExample2">
+                                        <div class="card  text-light " style=" background-color: blueviolet;">
+                                            <table class="table ">
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col" class=" text-light p-sm-5 p-lg-4  p-md-4">
+                                                            Degree:</th>
+                                                        <td scope="col" class=" text-light"> Bachelors of Computer
+                                                            Science.</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="col" class=" text-light p-sm-5 p-lg-4  p-md-4">
+                                                            University:</th>
+                                                        <td scope="col" class=" text-light">Swami Ramanand Teerth
+                                                            Marathwada Universit.</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="col" class="text-light p-sm-5 p-lg-4  p-md-4">
+                                                            College:</th>
+                                                        <td scope="col" class=" text-light">MGM’s college of CS & IT,
+                                                            Nanded.</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="col" class="text-light  p-sm-4 p-lg-4  p-md-4">
+                                                            Result:</th>
+                                                        <td scope="col" class=" text-light">75.19% - 2022.</td>
+                                                    </tr>
+                                                </thead>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-6 col-md-6 my-4 ">
+                            <div class="card" style=" background-color: blueviolet;">
+                                <div class="justify-content-center text-center mx-auto">
+                                    <i class="fa-solid fa-building-columns text-light fs-3 my-3"></i>
+                                    <h5 class="mx-auto text-light">HSC</h5>
+                                    <p>
+                                        <a class="btn btn-outline-dark rounded-pill" data-bs-toggle="collapse"
+                                            href="#collapseExample3" role="button" aria-expanded="false"
+                                            aria-controls="collapseExample">
+                                            Read More
+                                        </a>
+                                    </p>
+                                    <div class="collapse" id="collapseExample3">
+                                        <div class="card text-light " style=" background-color: blueviolet;">
+                                            <table class="table ">
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col" class=" text-light p-sm-5 p-lg-4  p-md-4">Board:
+                                                        </th>
+                                                        <td scope="col" class=" text-light">Latur Board</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="col" class="text-light p-sm-5 p-lg-4  p-md-4">
+                                                            College:</th>
+                                                        <td scope="col" class=" text-light"> NSB College of Arts Science
+                                                            & Commerce, Nanded.</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="col" class="text-light  p-sm-4 p-lg-4  p-md-4">
+                                                            Result:</th>
+                                                        <td scope="col" class=" text-light"> 53.32% - 2019.</td>
+                                                    </tr>
+                                                </thead>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-6 col-md-6 my-4 ">
+                            <div class="card" style=" background-color: blueviolet;">
+                                <div class="justify-content-center text-center mx-auto">
+                                    <i class="fa-solid fa-school text-light fs-3 my-3"></i>
+                                    <h5 class="mx-auto text-light">SSC</h5>
+                                    <p>
+                                        <a class="btn btn-outline-dark rounded-pill" data-bs-toggle="collapse"
+                                            href="#collapseExample4" role="button" aria-expanded="false"
+                                            aria-controls="collapseExample">
+                                            Read More
+                                        </a>
+                                    </p>
+                                    <div class="collapse" id="collapseExample4">
+                                        <div class="card  text-light " style=" background-color: blueviolet;">
+                                            <table class="table ">
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col" class=" text-light p-sm-5 p-lg-4  p-md-4">Board:
+                                                        </th>
+                                                        <td scope="col" class=" text-light"> Latur Board.</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="col" class="text-light p-sm-5 p-lg-4  p-md-4">School:
+                                                        </th>
+                                                        <td scope="col" class=" text-light"> Gujarati High School,
+                                                            Nanded.</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="col" class="text-light  p-sm-4 p-lg-4  p-md-4">
+                                                            Result:</th>
+                                                        <td scope="col" class=" text-light">65.20% - 2017.</td>
+                                                    </tr>
+                                                </thead>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--education section end-->
+
+                <!--skill section start-->
+                <div class="container-fluid " id="skill">
+                    <div class="row skill-border ">
+                        <h1 class="text-center  edu_border">Skill</h1>
+                        <div class="col-12 col-lg-6 col-md-6 my-4 ">
+                            <div class="progress">
+                                <div class="progress-bar  progress-bar-striped progress-bar-animated" role="progressbar"
+                                    style="width: 70%; background-color: blueviolet;">HTML 70%</div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 col-md-6 my-4 ">
+                            <div class="progress">
+                                <div class="progress-bar  progress-bar-striped progress-bar-animated" role="progressbar"
+                                    style="width: 50%; background-color: blueviolet;">CSS 50%</div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 col-md-6 my-4 ">
+                            <div class="progress">
+                                <div class="progress-bar  progress-bar-striped progress-bar-animated" role="progressbar"
+                                    style="width: 80%; background-color: blueviolet;">Bootstrap 80%</div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 col-md-6 my-4 ">
+                            <div class="progress">
+                                <div class="progress-bar  progress-bar-striped progress-bar-animated" role="progressbar"
+                                    style="width: 20%; background-color: blueviolet;">JavaScript 20%</div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 col-md-6 my-4 ">
+                            <div class="progress">
+                                <div class="progress-bar  progress-bar-striped progress-bar-animated" role="progressbar"
+                                    style="width: 40%; background-color: blueviolet;">PHP 40%</div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 col-md-6 my-4 ">
+                            <div class="progress">
+                                <div class="progress-bar  progress-bar-striped progress-bar-animated" role="progressbar"
+                                    style="width: 40%; background-color: blueviolet;">Python 40%</div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 col-md-6 my-4 ">
+                            <div class="progress">
+                                <div class="progress-bar  progress-bar-striped progress-bar-animated" role="progressbar"
+                                    style="width: 50%; background-color: blueviolet;">Power BI 50%</div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 col-md-6 my-4 ">
+                            <div class="progress">
+                                <div class="progress-bar  progress-bar-striped progress-bar-animated" role="progressbar"
+                                    style="width: 80%; background-color: blueviolet;">Soft Skill 80%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--skill section end-->
+
+
+                <!-- projects section start-->
+                <div class="container-fluid " id="projects">
+                    <div class="row skill-border">
+                        <h1 class="text-center  edu_border">Projects</h1>
+                        <div class="col-12 col-lg-6 col-md-6 my-2">
+                            <div id="carouselExampleControls" class="carousel slide my-2" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./img/anime.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./img/anime1.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./img/anime2.jpg" class="d-block w-100" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 col-md-6 my-2">
+                            <p class="text-center my-3 animate__animated animate__pulse animate__infinite	infinite">
+                                Anigen (Anime Recommend System)</p>
+                            <div class="border edu_border p-5 ">
+                                Duration: February 2023 - June 2023.<br>
+                                Role: Designer.<br>
+                                Description: The website Developed using Bootstrap and PHP. It Provides anime
+                                recommendations based on age group.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row skill-border  ">
+                        <div class="col-12 col-lg-6 col-md-6 my-2">
+                            <p class="text-center animate__animated animate__pulse animate__infinite infinite">Mini-med
+                                system</p>
+                            <div class="border edu_border p-5 ">
+                                Duration:January 2023 – January 2023.<br>
+                                Role: Designer & Developer.<br>
+                                Description: It is a CRUD based Website for pharmacy store which is
+                                developed in PHP and designed in Bootstrap-5.
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 col-md-6">
+                            <div id="carouselExampleControls" class="carousel slide my-2" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./img/medicine.jpg" class="d-block w-100" alt="..." height="300px"
+                                            width="400px">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./img/medicine1.jpg" class="d-block w-100" alt="..." height="300px"
+                                            width="400px">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./img/medicine3.jpg" class="d-block w-100" alt="..." height="300px"
+                                            width="400px">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row skill-border">
+                        <div class="col-12 col-lg-6 col-md-6">
+                            <div id="carouselExampleControls" class="carousel slide my-2" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./img/portfolio.jpg" class="d-block w-100" alt="..." height="300px"
+                                            width="400px">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./img/portfolio2.jpg" class="d-block w-100" alt="..." height="300px"
+                                            width="400px">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 col-md-6 my-2">
+                            <p class="text-center  animate__animated animate__pulse animate__infinite	infinite">
+                                Portfolio</p>
+                            <div class="border edu_border p-5">
+                                Duration:September 2023 – September 2023.<br>
+                                Role: Designer & Developer.<br>
+                                Description: The portfolio is nothing but my digital resume
+                                which is developed in Bootstrap-5 and it is
+                                showcasing my designing skills..
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row skill-border  ">
+                        <div class="col-12 col-lg-6 col-md-6 my-2">
+                            <p class="text-center animate__animated animate__pulse animate__infinite	infinite">MGMCCSIT
+                            </p>
+                            <div class="border edu_border p-5 ">
+                                Duration: January 2022 - March 2022.<br>
+                                Role: Designer & Developer.<br>
+                                Description: Developed
+                                website as a UI designer and frontend
+                                developer. For Showcasing frontend
+                                development skills.
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 col-md-6">
+                            <div id="carouselExampleControls" class="carousel slide my-2" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="./img/mgmccsit.jpg" class="d-block w-100" alt="..." height="300px"
+                                            width="400px">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--projects  section end-->
+
+                <!--certification  section start-->
+                <div class="container-fluid" id="certification">
+                    <div class="row skill-border ">
+                        <h1 class="text-center  edu_border ">Certifications & Courses</h1>
+
+                        <div class="col-12 col-lg-6 col-md-6 my-3 mx-auto">
+                            <div class="accordion" id="accordionExample1">
+                                <div class="accordion-item ">
+                                    <h2 class="accordion-header  " id="headingOne1">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne1" aria-expanded="true"
+                                            aria-controls="collapseOne1">Forage & Tata collaborate Data
+                                            Visualization</button>
+                                    </h2>
+                                    <div id="collapseOne1" class="accordion-collapse collapse "
+                                        aria-labelledby="headingOne1" data-bs-parent="#accordionExample1">
+                                        <div class="accordion-body">
+                                            <img src="./img/data_visualization_FORAGE_TATA_page-0001 (1).jpg"
+                                                class="w-100" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-6 col-md-6 my-3 mx-auto">
+                            <div class="accordion" id="accordionExample2">
+                                <div class="accordion-item ">
+                                    <h2 class="accordion-header  mx-auto bg-transparent " id="headingOne2">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne2" aria-expanded="true"
+                                            aria-controls="collapseOne2">Fundamental of Python For Beginner </button>
+                                    </h2>
+                                    <div id="collapseOne2" class="accordion-collapse collapse "
+                                        aria-labelledby="headingOne2" data-bs-parent="#accordionExample2">
+                                        <div class="accordion-body">
+                                            <img src="./img/fundamentlal of python.jpeg" class="w-100" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-6 col-md-6 my-3 mx-auto">
+                            <div class="accordion" id="accordionExample3">
+                                <div class="accordion-item ">
+                                    <h2 class="accordion-header  mx-auto bg-transparent " id="headingOne3">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne3" aria-expanded="true"
+                                            aria-controls="collapseOne3">Data Visualization with Power BI </button>
+                                    </h2>
+                                    <div id="collapseOne3" class="accordion-collapse collapse "
+                                        aria-labelledby="headingOne3" data-bs-parent="#accordionExample3">
+                                        <div class="accordion-body">
+                                            <img src="./img/Data visualization with power BI.jpeg" class="w-100" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-6 col-md-6 my-3 mx-auto">
+                            <div class="accordion" id="accordionExample4">
+                                <div class="accordion-item ">
+                                    <h2 class="accordion-header  mx-auto bg-transparent " id="headingOne4">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne4" aria-expanded="true"
+                                            aria-controls="collapseOne4">HTML </button>
+                                    </h2>
+                                    <div id="collapseOne4" class="accordion-collapse collapse "
+                                        aria-labelledby="headingOne4" data-bs-parent="#accordionExample4">
+                                        <div class="accordion-body">
+                                            <img src="./img/HTML.jpeg" class="w-100" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-6 col-md-6 my-3 mx-auto">
+                            <div class="accordion" id="accordionExample5">
+                                <div class="accordion-item ">
+                                    <h2 class="accordion-header  mx-auto bg-transparent " id="headingOne5">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne5" aria-expanded="true"
+                                            aria-controls="collapseOne5">CSS </button>
+                                    </h2>
+                                    <div id="collapseOne5" class="accordion-collapse collapse "
+                                        aria-labelledby="headingOne5" data-bs-parent="#accordionExample5">
+                                        <div class="accordion-body">
+                                            <img src="./img/CSS.jpg" class="w-100" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--certification  section end-->
+    <div class="row">
+        <p class="text-center my-2">All Rights & Info Belongs To NK</p>
+    </div>
+</body>
+</html>

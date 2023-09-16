@@ -1,0 +1,87 @@
+/* For dark/light mode */
+* {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+::-webkit-scrollbar {
+    width: 0;
+
+    /* Hide the scrollbar completely */
+}
+body {
+
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}
+
+.navbar {
+    position: fixed;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.btn:hover {
+    border-width: 1.5px;
+    border-top-color: blueviolet;
+    border-bottom-color: blueviolet;
+    border-top-right-radius: 200px;
+    border-Bottom-left-radius: 200px;
+    transition: 1s;
+}
+
+
+/* For dark/light mode end */
+
+.about_img {
+    box-shadow: 3px 3px 3px 3px blueviolet;
+    border-top-right-radius: 200px;
+    border-Bottom-left-radius: 200px;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+p {
+    color: blueviolet;
+    overflow-y: hidden;
+}
+
+
+/*education*/
+
+.card {
+    box-shadow: 3px 5px 5px 5px blueviolet;
+    animation: floatCard 5s infinite;
+
+}
+
+@keyframes floatCard {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.edu_border {
+    box-shadow: 3px 5px 5px 5px blueviolet;
+    border-top-right-radius: 100px;
+    border-Bottom-left-radius: 100px;
+}
+
+
+/*end education*/
+
